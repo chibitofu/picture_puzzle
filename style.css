@@ -1,0 +1,20 @@
+body {
+  height: 100%;
+}
+
+#puzzle-board {
+  background-image: url("monkey.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 400px;
+  width: 525px;
+}
+
+.tile {
+  width: 20%;
+  height: 80px;
+  border: 1px solid white;
+  margin: ;
+  background-color: rgba(24, 195, 100, 0.5);
+  display: inline-block;
+}
