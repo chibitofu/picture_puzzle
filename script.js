@@ -10,6 +10,12 @@ function gameBoard(tiles) {
   }
 }
 
+//Changes color of tiles when you click on them//
 $(".tile").on('click', function() {
   $(this).css('background-color', 'green')
+})
+
+//Changes the background color of tiles back to blue//
+$('#reset').on('click', function() {
+  $('.tile').css('background-color', 'blue');
 })
