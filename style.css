@@ -2,19 +2,16 @@ body {
   height: 100%;
 }
 
-#puzzle-board {
-  background-image: url("monkey.jpg");
-  background-size: contain;
-  background-repeat: no-repeat;
-  height: 400px;
-  width: 525px;
+#board {
+  margin: 0 19%;
 }
 
 .tile {
-  width: 20%;
-  height: 80px;
-  border: 1px solid white;
-  margin: ;
-  background-color: rgba(24, 195, 100, 0.5);
+  height: 50px;
+  width: 50px;
+  background-color: blue;
+  color: white;
   display: inline-block;
+  text-align: center;
+  border: 2px solid white;
 }
