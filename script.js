@@ -1,3 +1,6 @@
+gameBoard(5);
+
+//Tiles are the amount of rows and columns to form a square//
 function gameBoard(tiles) {
   for (var i = 0; i < tiles; i++) {
     document.getElementById('board').innerHTML += '<div class="row"></div>';
@@ -7,13 +10,6 @@ function gameBoard(tiles) {
   }
 }
 
-gameBoard(5);
-
-function reveal() {
-  var tiles = $('.tiles');
-  // var randomTile = shuffle(items).slice(0,1);
-  // var tileCSS = randomTile.css();
-  // console.log(randomTile);
-  // console.log(tileCSS);
-  console.log(tiles);
-}
+$(".tile").on('click', function() {
+  $(this).css('background-color', 'green')
+})
