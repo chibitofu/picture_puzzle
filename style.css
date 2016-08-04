@@ -3,7 +3,8 @@ body {
 }
 
 #board {
-  margin: 0 19%;
+  margin: 0 auto;
+  text-align: center;
 }
 
 .tile {
